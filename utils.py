@@ -528,7 +528,7 @@ class Utils:
 
     @staticmethod
     def convert_epoch_to_datetime(epoch, UTC=True, epoch_milliseconds=False):
-        if epoch_milliseconds is True:
+        if epoch_milliseconds:
             epoch /= 1000
 
         if UTC:
