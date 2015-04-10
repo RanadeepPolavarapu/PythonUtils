@@ -531,7 +531,7 @@ class Utils:
         if epoch_milliseconds is True:
             epoch /= 1000
 
-        if UTC is True:
+        if UTC:
             dt = datetime.datetime.utcfromtimestamp(
                 epoch).replace(tzinfo=pytz.utc)
         else:
