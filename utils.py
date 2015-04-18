@@ -706,7 +706,7 @@ class Utils:
         # A utility function that returns a generator object which is an
         # interable object. This function allows us to split a set (list, tuple)
         # into a an N number of subsets.
-        return (seq[pos:pos + size] for pos in xrange(0, len(seq), size))
+        return (seq[pos:pos + size] for pos in range(0, len(seq), size))
 
     @staticmethod
     def group_list_by_n(l, n):
