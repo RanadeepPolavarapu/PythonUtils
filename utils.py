@@ -203,7 +203,18 @@ class Utils:
         'za': 'Zhuang',
         'qu': 'Quechua',
         'pl': 'Polish',
-        'az': 'Azerbaijani'}
+        'az': 'Azerbaijani'
+    }
+
+    ISO_LOCALE_CONTINENT_CODES = {
+        'AF': 'Africa',
+        'AN': 'Antarctica',
+        'AS': 'Asia',
+        'EU': 'Europe',
+        'NA': 'North America',
+        'OC': 'Oceania',
+        'SA': 'South America'
+    }
 
     ISO_LOCALE_COUNTRY_CODES = {
         'PL': 'Poland',
@@ -454,7 +465,8 @@ class Utils:
         'TR': 'Turkey',
         'MH': 'Marshall Islands',
         'ZM': 'Zambia',
-        'BB': 'Barbados'}
+        'BB': 'Barbados'
+    }
 
     def __init__(self):
         pass
